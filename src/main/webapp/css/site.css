@@ -1,0 +1,141 @@
+#banner {
+	witdh: 100%;
+}
+
+
+table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+	text-align: center;
+}
+
+#gameboard-header {
+	display: inline;
+}
+
+#add-player {
+	display: inline;
+	float: right;
+}
+
+.header {
+	height: 150px;
+	background: url('../img/headerBackground.jpg');
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+
+.header h1 {
+	color: red;
+	font-family: courier;
+	text-align: center !important;
+	width: 100%;
+}
+
+.navbar-default {
+	background-color: #3042A7;
+	background-image: none;
+	background-repeat: no-repeat;
+}
+
+.floating-img {
+	float: left;
+	height: 100%;
+}
+
+.h1 {
+	font-size: 8rem;
+	position: absolute;
+	top: 50%;
+	margin-top: 0;
+	margin-left: 20px;
+	color: white;
+}
+
+.centered-text {
+	text-align: center;
+}
+
+.right-aligned {
+	text-align: right;
+}
+
+.padding-row {
+	height: 20px;
+}
+
+body {
+	background-image: url("../img/polaroid.png");
+}
+
+.white-font {
+	color: white;
+}
+
+.register-bg-image {
+	background-size: 100% auto;
+	background-image: url("../img/secure.jpg");
+}
+
+.transaction {
+	display: inline;
+}
+
+i {
+	border: solid black;
+	border-width: 0 3px 3px 0;
+	display: inline-block;
+	padding: 3px;
+}
+
+.up {
+	transform: rotate(-135deg);
+	-webkit-transform: rotate(-135deg);
+}
+
+#homeRules {
+	background-color: white;
+	border: 4px solid grey;
+	padding: 20px;
+	text-align: left;
+}
+
+.down {
+	transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+}
+
+.row {
+	margin-bottom: 3rem;
+	font-size: 2rem;
+}
+
+.players {
+	display: inline-block;
+	margin: 0 10px;
+}
+
+#stockDetails {
+	border: 2px solid gray;
+	padding: 8px;
+}
+
+.border {
+	background-color: #bfdbfa;
+	border: 2px solid gray;
+	padding: 8px;
+}
+
+footer {
+	margin-top: 10% align: bottom;
+	height: 0;
+}
+
+#homeSubmit {
+	width: 100px;
+}
+
+/*.footer {
+	align: bottom;
+}*/
